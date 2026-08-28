@@ -540,8 +540,8 @@ footer ul li a:hover{color:var(--gold-soft);}
     <div class="hero-visual">
       <div class="hero-photo-stack">
         <div class="hero-badge">Handmade<br>With Love</div>
-        <div class="hero-photo-main"><img src="https://image.pollinations.ai/prompt/beautiful%20fashion%20and%20candle%20flatlay%20aesthetic%20soft%20lighting?width=700&height=760&nologo=true" alt="Naaz styled fashion and candle flatlay"></div>
-        <div class="hero-photo-small"><img src="https://image.pollinations.ai/prompt/handmade%20soy%20candle%20minimalist%20aesthetic?width=300&height=300&nologo=true" alt="Naaz handmade candle"></div>
+        <div class="hero-photo-main"><img src="https://picsum.photos/seed/naazhero1/700/760" alt="Naaz styled fashion and candle flatlay"></div>
+        <div class="hero-photo-small"><img src="https://picsum.photos/seed/naazhero2/300/300" alt="Naaz handmade candle"></div>
       </div>
     </div>
   </div>
@@ -603,15 +603,15 @@ footer ul li a:hover{color:var(--gold-soft);}
     </div>
     <div class="fashion-grid">
       <div class="fashion-card" onclick="setCategoryFilter('fashion')">
-        <img src="https://image.pollinations.ai/prompt/beautiful%20indian%20ethnic%20wear%20anarkali%20kurta%20aesthetic%20editorial?width=500&height=650&nologo=true" alt="Ethnic wear">
+        <img src="https://picsum.photos/seed/naazethnic/500/650" alt="Ethnic wear">
         <div class="fashion-overlay"><div><span>Ethnic Wear</span><h3>Timeless Drapes</h3></div></div>
       </div>
       <div class="fashion-card" onclick="setCategoryFilter('fashion')">
-        <img src="https://image.pollinations.ai/prompt/chic%20western%20wear%20coord%20set%20fashion%20editorial?width=500&height=650&nologo=true" alt="Western wear">
+        <img src="https://picsum.photos/seed/naazwestern/500/650" alt="Western wear">
         <div class="fashion-overlay"><div><span>Western Wear</span><h3>Everyday Chic</h3></div></div>
       </div>
       <div class="fashion-card" onclick="setCategoryFilter('accessories')">
-        <img src="https://image.pollinations.ai/prompt/minimalist%20gold%20jewelry%20layered%20necklace%20aesthetic?width=500&height=650&nologo=true" alt="Fashion accessories">
+        <img src="https://picsum.photos/seed/naazaccessory/500/650" alt="Fashion accessories">
         <div class="fashion-overlay"><div><span>Accessories</span><h3>Finishing Touches</h3></div></div>
       </div>
     </div>
@@ -670,7 +670,7 @@ footer ul li a:hover{color:var(--gold-soft);}
 <section id="about" style="background:var(--blush-soft);">
   <div class="container about-section">
     <div class="about-img">
-      <div class="frame"><img src="https://image.pollinations.ai/prompt/elegant%20female%20founder%20entrepreneur%20portrait%20soft%20lighting%20lifestyle?width=600&height=750&nologo=true" alt="Naaz, founder of StyledByNaaz"></div>
+      <div class="frame"><img src="https://picsum.photos/seed/naazabout/600/750" alt="Naaz, founder of StyledByNaaz"></div>
     </div>
     <div class="about-text">
       <span class="section-tag">Meet Naaz</span>
@@ -875,29 +875,31 @@ footer ul li a:hover{color:var(--gold-soft);}
 <script>
 /* =====================================================================
    NAAZ | STYLEDBYNAAZ — PRODUCT DATA
-   Populated with dynamic AI-generated aesthetic product imagery
+   Everything below is easily editable: names, prices, images, links.
+   Replace the "img" URLs with your real product photography.
+   Categories used: fashion | candles | gifts | accessories | decor | beauty | hair
 ===================================================================== */
 const PRODUCTS = [
-  { id:1,  name:"Rose Petal Candle", category:"candles", price:449, oldPrice:599, desc:"A hand-poured soy candle layered with delicate rose petals, filling your space with a soft floral warmth. Perfect for quiet evenings or gifting someone special.", images:["https://image.pollinations.ai/prompt/Rose%20Petal%20Candle%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Rose%20Petal%20Candle%20lifestyle%20aesthetic?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Rose%20Petal%20Candle%20burning?width=700&height=850&nologo=true"], tag:"Bestseller" },
-  { id:2,  name:"Vanilla Bliss Scented Candle", category:"candles", price:399, oldPrice:499, desc:"A cosy vanilla-scented candle made from natural soy wax, burning clean and slow for hours of warm fragrance.", images:["https://image.pollinations.ai/prompt/Vanilla%20Bliss%20Scented%20Candle%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Vanilla%20Bliss%20Scented%20Candle%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"" },
-  { id:3,  name:"Bubble Candle Duo", category:"candles", price:549, oldPrice:699, desc:"Two playful bubble-shaped candles, hand-finished for a soft matte look — as beautiful on a shelf as they are lit.", images:["https://image.pollinations.ai/prompt/Bubble%20Candle%20Duo%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Bubble%20Candle%20Duo%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"New" },
-  { id:4,  name:"Floral Wax Decorative Candle", category:"candles", price:479, oldPrice:599, desc:"A decorative candle embedded with pressed flowers, designed to double as a statement décor piece.", images:["https://image.pollinations.ai/prompt/Floral%20Wax%20Decorative%20Candle%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Floral%20Wax%20Decorative%20Candle%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"" },
-  { id:5,  name:"Water Ripple Candle", category:"candles", price:529, oldPrice:649, desc:"An artisanal water-effect candle with a rippled, glossy finish — a quiet little luxury for your side table.", images:["https://image.pollinations.ai/prompt/Water%20Ripple%20Candle%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Water%20Ripple%20Candle%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"" },
-  { id:6,  name:"Candle Gift Set", category:"gifts", price:899, oldPrice:1199, desc:"Three handmade candles in a keepsake box — a warm, ready-to-gift set for birthdays, festivals or just because.", images:["https://image.pollinations.ai/prompt/Candle%20Gift%20Set%20box%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Candle%20Gift%20Set%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"Gift Ready" },
-  { id:7,  name:"Naaz Signature Gift Hamper", category:"gifts", price:1299, oldPrice:1599, desc:"A curated hamper featuring candles, a beauty essential and a fashion accessory — thoughtfully packed for someone special.", images:["https://image.pollinations.ai/prompt/Signature%20Gift%20Hamper%20aesthetic%20box%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Signature%20Gift%20Hamper%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"Popular" },
-  { id:8,  name:"Elegant Gift Box", category:"gifts", price:699, oldPrice:899, desc:"A beautifully wrapped gift box you can personalise with your own note — ideal for last-minute thoughtful gifting.", images:["https://image.pollinations.ai/prompt/Elegant%20Gift%20Box%20ribbon%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Elegant%20Gift%20Box%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"" },
-  { id:9,  name:"Ethnic Anarkali Kurta Set", category:"fashion", price:1499, oldPrice:1999, desc:"A flowy Anarkali kurta set in soft rose tones, tailored for festive days and quiet celebrations alike.", images:["https://image.pollinations.ai/prompt/Ethnic%20Anarkali%20Kurta%20Set%20fashion%20editorial?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Ethnic%20Anarkali%20Kurta%20Set%20detail%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Ethnic%20Anarkali%20Kurta%20Set%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"Festive Pick" },
-  { id:10, name:"Western Co-ord Set", category:"fashion", price:1299, oldPrice:1699, desc:"An easy, everyday co-ord set designed for effortless styling — dress it up or keep it casual.", images:["https://image.pollinations.ai/prompt/Western%20Coord%20Set%20fashion%20editorial?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Western%20Coord%20Set%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"New" },
-  { id:11, name:"Boho Layered Necklace", category:"accessories", price:349, oldPrice:449, desc:"A delicate layered necklace that adds instant boho charm to both ethnic and western outfits.", images:["https://image.pollinations.ai/prompt/Boho%20Layered%20Necklace%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Boho%20Layered%20Necklace%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"" },
-  { id:12, name:"Pearl Drop Earrings", category:"accessories", price:299, oldPrice:399, desc:"Timeless pearl-drop earrings finished with a soft gold tone — a small detail that elevates any look.", images:["https://image.pollinations.ai/prompt/Pearl%20Drop%20Earrings%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Pearl%20Drop%20Earrings%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"Bestseller" },
-  { id:13, name:"Rose Gold Bracelet Set", category:"accessories", price:379, oldPrice:499, desc:"A stackable bracelet set in a warm rose-gold finish, designed to layer beautifully together.", images:["https://image.pollinations.ai/prompt/Rose%20Gold%20Bracelet%20Set%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Rose%20Gold%20Bracelet%20Set%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"" },
-  { id:14, name:"Ceramic Flower Vase", category:"decor", price:649, oldPrice:799, desc:"A hand-finished ceramic vase in a soft blush glaze, bringing a boutique touch to any corner of your home.", images:["https://image.pollinations.ai/prompt/Ceramic%20Flower%20Vase%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Ceramic%20Flower%20Vase%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"" },
-  { id:15, name:"Fairy Light Photo Frame", category:"decor", price:549, oldPrice:699, desc:"A décor photo frame wrapped with warm fairy lights — perfect for favourite memories and cosy corners.", images:["https://image.pollinations.ai/prompt/Fairy%20Light%20Photo%20Frame%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Fairy%20Light%20Photo%20Frame%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"New" },
-  { id:16, name:"Nourishing Lip Oil", category:"beauty", price:299, oldPrice:349, desc:"A lightweight, nourishing lip oil with a soft tint and glossy finish — an everyday beauty favourite.", images:["https://image.pollinations.ai/prompt/Nourishing%20Lip%20Oil%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Nourishing%20Lip%20Oil%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"" },
-  { id:17, name:"Glow Face Serum", category:"beauty", price:599, oldPrice:749, desc:"A gentle, everyday face serum designed to leave your skin looking naturally radiant.", images:["https://image.pollinations.ai/prompt/Glow%20Face%20Serum%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Glow%20Face%20Serum%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"Popular" },
-  { id:18, name:"Pearl Hair Clip Set", category:"hair", price:199, oldPrice:249, desc:"A set of dainty pearl-embellished hair clips — pretty, practical, and easy to style with.", images:["https://image.pollinations.ai/prompt/Pearl%20Hair%20Clip%20Set%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Pearl%20Hair%20Clip%20Set%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"" },
-  { id:19, name:"Satin Scrunchie Set", category:"hair", price:249, oldPrice:299, desc:"Soft satin scrunchies in boutique shades, gentle on hair and pretty on the wrist.", images:["https://image.pollinations.ai/prompt/Satin%20Scrunchie%20Set%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Satin%20Scrunchie%20Set%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"" },
-  { id:20, name:"Floral Hair Band", category:"hair", price:179, oldPrice:229, desc:"A delicate floral hair band that adds a romantic, feminine finish to any hairstyle.", images:["https://image.pollinations.ai/prompt/Floral%20Hair%20Band%20product%20shot?width=700&height=850&nologo=true","https://image.pollinations.ai/prompt/Floral%20Hair%20Band%20lifestyle%20aesthetic?width=700&height=850&nologo=true"], tag:"New" },
+  { id:1,  name:"Rose Petal Candle", category:"candles", price:449, oldPrice:599, desc:"A hand-poured soy candle layered with delicate rose petals, filling your space with a soft floral warmth. Perfect for quiet evenings or gifting someone special.", images:["https://picsum.photos/seed/candle1a/700/850","https://picsum.photos/seed/candle1b/700/850","https://picsum.photos/seed/candle1c/700/850"], tag:"Bestseller" },
+  { id:2,  name:"Vanilla Bliss Scented Candle", category:"candles", price:399, oldPrice:499, desc:"A cosy vanilla-scented candle made from natural soy wax, burning clean and slow for hours of warm fragrance.", images:["https://picsum.photos/seed/candle2a/700/850","https://picsum.photos/seed/candle2b/700/850"], tag:"" },
+  { id:3,  name:"Bubble Candle Duo", category:"candles", price:549, oldPrice:699, desc:"Two playful bubble-shaped candles, hand-finished for a soft matte look — as beautiful on a shelf as they are lit.", images:["https://picsum.photos/seed/candle3a/700/850","https://picsum.photos/seed/candle3b/700/850"], tag:"New" },
+  { id:4,  name:"Floral Wax Decorative Candle", category:"candles", price:479, oldPrice:599, desc:"A decorative candle embedded with pressed flowers, designed to double as a statement décor piece.", images:["https://picsum.photos/seed/candle4a/700/850","https://picsum.photos/seed/candle4b/700/850"], tag:"" },
+  { id:5,  name:"Water Ripple Candle", category:"candles", price:529, oldPrice:649, desc:"An artisanal water-effect candle with a rippled, glossy finish — a quiet little luxury for your side table.", images:["https://picsum.photos/seed/candle5a/700/850","https://picsum.photos/seed/candle5b/700/850"], tag:"" },
+  { id:6,  name:"Candle Gift Set (Set of 3)", category:"gifts", price:899, oldPrice:1199, desc:"Three handmade candles in a keepsake box — a warm, ready-to-gift set for birthdays, festivals or just because.", images:["https://picsum.photos/seed/candle6a/700/850","https://picsum.photos/seed/candle6b/700/850"], tag:"Gift Ready" },
+  { id:7,  name:"Naaz Signature Gift Hamper", category:"gifts", price:1299, oldPrice:1599, desc:"A curated hamper featuring candles, a beauty essential and a fashion accessory — thoughtfully packed for someone special.", images:["https://picsum.photos/seed/hamper1a/700/850","https://picsum.photos/seed/hamper1b/700/850"], tag:"Popular" },
+  { id:8,  name:"Elegant Gift Box", category:"gifts", price:699, oldPrice:899, desc:"A beautifully wrapped gift box you can personalise with your own note — ideal for last-minute thoughtful gifting.", images:["https://picsum.photos/seed/giftbox1a/700/850","https://picsum.photos/seed/giftbox1b/700/850"], tag:"" },
+  { id:9,  name:"Ethnic Anarkali Kurta Set", category:"fashion", price:1499, oldPrice:1999, desc:"A flowy Anarkali kurta set in soft rose tones, tailored for festive days and quiet celebrations alike.", images:["https://picsum.photos/seed/ethnic1a/700/850","https://picsum.photos/seed/ethnic1b/700/850","https://picsum.photos/seed/ethnic1c/700/850"], tag:"Festive Pick" },
+  { id:10, name:"Western Co-ord Set", category:"fashion", price:1299, oldPrice:1699, desc:"An easy, everyday co-ord set designed for effortless styling — dress it up or keep it casual.", images:["https://picsum.photos/seed/western1a/700/850","https://picsum.photos/seed/western1b/700/850"], tag:"New" },
+  { id:11, name:"Boho Layered Necklace", category:"accessories", price:349, oldPrice:449, desc:"A delicate layered necklace that adds instant boho charm to both ethnic and western outfits.", images:["https://picsum.photos/seed/neck1a/700/850","https://picsum.photos/seed/neck1b/700/850"], tag:"" },
+  { id:12, name:"Pearl Drop Earrings", category:"accessories", price:299, oldPrice:399, desc:"Timeless pearl-drop earrings finished with a soft gold tone — a small detail that elevates any look.", images:["https://picsum.photos/seed/earring1a/700/850","https://picsum.photos/seed/earring1b/700/850"], tag:"Bestseller" },
+  { id:13, name:"Rose Gold Bracelet Set", category:"accessories", price:379, oldPrice:499, desc:"A stackable bracelet set in a warm rose-gold finish, designed to layer beautifully together.", images:["https://picsum.photos/seed/bracelet1a/700/850","https://picsum.photos/seed/bracelet1b/700/850"], tag:"" },
+  { id:14, name:"Ceramic Flower Vase", category:"decor", price:649, oldPrice:799, desc:"A hand-finished ceramic vase in a soft blush glaze, bringing a boutique touch to any corner of your home.", images:["https://picsum.photos/seed/vase1a/700/850","https://picsum.photos/seed/vase1b/700/850"], tag:"" },
+  { id:15, name:"Fairy Light Photo Frame", category:"decor", price:549, oldPrice:699, desc:"A décor photo frame wrapped with warm fairy lights — perfect for favourite memories and cosy corners.", images:["https://picsum.photos/seed/frame1a/700/850","https://picsum.photos/seed/frame1b/700/850"], tag:"New" },
+  { id:16, name:"Nourishing Lip Oil", category:"beauty", price:299, oldPrice:349, desc:"A lightweight, nourishing lip oil with a soft tint and glossy finish — an everyday beauty favourite.", images:["https://picsum.photos/seed/lipoil1a/700/850","https://picsum.photos/seed/lipoil1b/700/850"], tag:"" },
+  { id:17, name:"Glow Face Serum", category:"beauty", price:599, oldPrice:749, desc:"A gentle, everyday face serum designed to leave your skin looking naturally radiant.", images:["https://picsum.photos/seed/serum1a/700/850","https://picsum.photos/seed/serum1b/700/850"], tag:"Popular" },
+  { id:18, name:"Pearl Hair Clip Set", category:"hair", price:199, oldPrice:249, desc:"A set of dainty pearl-embellished hair clips — pretty, practical, and easy to style with.", images:["https://picsum.photos/seed/hairclip1a/700/850","https://picsum.photos/seed/hairclip1b/700/850"], tag:"" },
+  { id:19, name:"Satin Scrunchie Set", category:"hair", price:249, oldPrice:299, desc:"Soft satin scrunchies in boutique shades, gentle on hair and pretty on the wrist.", images:["https://picsum.photos/seed/scrunchie1a/700/850","https://picsum.photos/seed/scrunchie1b/700/850"], tag:"" },
+  { id:20, name:"Floral Hair Band", category:"hair", price:179, oldPrice:229, desc:"A delicate floral hair band that adds a romantic, feminine finish to any hairstyle.", images:["https://picsum.photos/seed/hairband1a/700/850","https://picsum.photos/seed/hairband1b/700/850"], tag:"New" },
 ];
 
 const CATEGORY_LABELS = {
@@ -906,13 +908,13 @@ const CATEGORY_LABELS = {
 };
 
 const CATEGORY_CARDS = [
-  { key:"fashion", label:"Fashion & Styling", desc:"Trendy looks, outfit ideas & styling inspiration", img:"https://image.pollinations.ai/prompt/minimalist%20fashion%20rack%20aesthetic?width=400&height=300&nologo=true" },
-  { key:"candles", label:"Handmade Candles", desc:"Beautiful candles handmade with love", img:"https://image.pollinations.ai/prompt/handmade%20candles%20aesthetic%20group?width=400&height=300&nologo=true" },
-  { key:"gifts", label:"Gift Ideas", desc:"Thoughtful gifts for every occasion", img:"https://image.pollinations.ai/prompt/elegant%20gift%20box%20ribbon?width=400&height=300&nologo=true" },
-  { key:"accessories", label:"Fashion Accessories", desc:"Elegant pieces that complete your look", img:"https://image.pollinations.ai/prompt/gold%20jewelry%20accessories%20aesthetic?width=400&height=300&nologo=true" },
-  { key:"decor", label:"Home Décor", desc:"Beautiful details for your space", img:"https://image.pollinations.ai/prompt/aesthetic%20home%20decor%20vase?width=400&height=300&nologo=true" },
-  { key:"beauty", label:"Beauty Essentials", desc:"Everyday beauty favourites", img:"https://image.pollinations.ai/prompt/skincare%20beauty%20bottles%20aesthetic?width=400&height=300&nologo=true" },
-  { key:"hair", label:"Hair Accessories", desc:"Pretty, stylish & practical pieces", img:"https://image.pollinations.ai/prompt/satin%20scrunchies%20hair%20clips?width=400&height=300&nologo=true" },
+  { key:"fashion", label:"Fashion & Styling", desc:"Trendy looks, outfit ideas & styling inspiration", img:"https://picsum.photos/seed/catfashion/400/300" },
+  { key:"candles", label:"Handmade Candles", desc:"Beautiful candles handmade with love", img:"https://picsum.photos/seed/catcandle/400/300" },
+  { key:"gifts", label:"Gift Ideas", desc:"Thoughtful gifts for every occasion", img:"https://picsum.photos/seed/catgift/400/300" },
+  { key:"accessories", label:"Fashion Accessories", desc:"Elegant pieces that complete your look", img:"https://picsum.photos/seed/cataccessory/400/300" },
+  { key:"decor", label:"Home Décor", desc:"Beautiful details for your space", img:"https://picsum.photos/seed/catdecor/400/300" },
+  { key:"beauty", label:"Beauty Essentials", desc:"Everyday beauty favourites", img:"https://picsum.photos/seed/catbeauty/400/300" },
+  { key:"hair", label:"Hair Accessories", desc:"Pretty, stylish & practical pieces", img:"https://picsum.photos/seed/cathair/400/300" },
 ];
 
 const INSTA_SEEDS = ["ig1","ig2","ig3","ig4","ig5","ig6"];
@@ -985,7 +987,7 @@ function renderCandles(){
 }
 function renderInsta(){
   document.getElementById('instaGrid').innerHTML = INSTA_SEEDS.map(s => `
-    <div class="insta-item"><img src="https://image.pollinations.ai/prompt/aesthetic%20lifestyle%20instagram%20feed%20photo%20${s}?width=300&height=300&nologo=true" alt="Instagram post"><div class="ig-icon">📷</div></div>
+    <div class="insta-item"><img src="https://picsum.photos/seed/${s}/300/300" alt="Instagram post"><div class="ig-icon">📷</div></div>
   `).join('');
 }
 
